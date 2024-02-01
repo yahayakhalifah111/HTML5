@@ -1,0 +1,23 @@
+
+#apple-shelf {
+    background-color: orangered;
+    max-width: 500px;
+    margin: 20px;
+}
+#orange-shelf {
+    background-color: orange; 
+    max-width: 500px;
+    margin: 20px;
+}
+
+
+
+
+
+button {
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    color: gold;
+    background-color: blue;
+}

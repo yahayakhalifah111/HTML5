@@ -1,0 +1,27 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(47, 88%, 63%) ;
+}
+
+.card {
+    border-radius: 8%; 
+    box-shadow: 10px 10px 10px;
+     width: 18rem;   
+     background-color: hsl(0, 0%, 100%);  
+     /* margin-top: 30% ; */
+     /* margin-left: 30%; */
+     justify-content: center; 
+     align-items: center;
+
+}
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+}
+h4:hover:focus {
+    color: yellow ;
+}
+

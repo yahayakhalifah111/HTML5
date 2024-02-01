@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    <section class="container">
+        <form class="content" style="border-radius: 20px;  margin: 50px; background-color:aliceblue; border-style: groove; padding: 20px; width: 240px; box-shadow: 2px 2px 20px aqua;">
+                <h1>Create your Account </h1>
+         
+            <section class="sec1" style="display: flex;gap: 12px; "  >
+                <div class="gogl" style="border-style:groove;border-radius: 8px; margin: 0px 10px; padding: 5px;">use Google  </div>
+                <div class="apple" style="border-style: groove;padding: 5px; border-radius: 8px; margin: 0px 10px;">Use Apple </div>   
+            </section> 
+            <div class="divider" style="align-items: center;">or</div>
+            <section class="sec2">
+                <div class="emal"> 
+                    <label for="email" style="display:flex ; flex-direction: column; padding: 10px;">Email:
+                            <input type="email" name="email" id="email" placeholder="your email" required> 
+                    </label>
+                    
+                </div>
+                <div class="pass">
+                    <label for="password" style="display: flex; flex-direction: column; padding:  10px;">Password: 
+                        <input type="password" name="password" id="password" placeholder="your password " title="minimum of 6 characters with atleast 1 character " pattern="" required>
+                    </label>
+                </div>
+            </section>
+            <button type="submit" title="please fill the form" style="width: 80%; background-color: blueviolet; border-radius: 10px; margin: 10px;">Login</button> 
+            <div class="other" style="justify-content: space-around; gap: 20px;">
+                <a href="#" title="Reset password" style="padding: 0px 10px;">Reset password</a>  
+                <a href="#" title="create new account" style="">Create new Account</a>
+
+            </div>
+        </form>
+
+    </section>
+
+</body>
+
+</html>

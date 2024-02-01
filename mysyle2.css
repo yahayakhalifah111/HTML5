@@ -1,0 +1,46 @@
+body {
+    /* background-color: lightblue ; */
+    background-image: url(images/img3.jpg); 
+    text-decoration-color: black;
+    color: blueviolet;
+    font-size: 20px;
+    border-color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border-radius: 10px;  */
+    border-style: outset;
+
+
+}
+h1{
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 0px;
+    font-weight: bold;
+    border-style: outset;
+    border-color: brown;
+    border-left-style: dashed;
+    border-right-style: groove;
+    background: linear-gradient(to right, skyblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h2 {
+    background-color: aquamarine;
+    padding: 12px;
+    margin: auto;
+    /* direction: ;  */
+    border-style: dashed;
+
+    
+
+}
+h3 {
+    background-color: aquamarine;
+}
+p {
+    background-color: aquamarine;
+    text-decoration: rgb(29, 89, 141);
+    text-align: center;
+    text-size-adjust: 40px;
+    padding: 10px;
+}

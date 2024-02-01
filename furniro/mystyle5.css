@@ -1,0 +1,100 @@
+/*body {/*
+   
+    background-repeat: no-repeat;
+    width: 1250px;
+    height: 600px;  
+    /* background-size: contain; 
+    /* background-position: top; 
+    background-color: lightblue;
+    border-style: dashed;
+
+}*/
+
+.container {
+    /* border-style: double;  */
+    background-image: url(images/background.svg);
+    /* width: 1300px; */
+    /* height: 6;   */
+    background-color: white;   
+     /* border-style: dashed; */
+     /* position: relative;  */
+     background-repeat: no-repeat;
+     
+     
+}
+
+.main_heading {
+/* background-image: url(images/background.svg); */
+    
+    display: flex;
+    justify-content: space-between; 
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+
+.first { 
+    display: flex; 
+    align-items: center; 
+
+}
+.sec{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+a[href = "#"] {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    
+
+}
+.third {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    gap: 30%;
+}
+
+.box {
+    background-color: rgb(241, 236, 231 );
+    margin:100px ;
+    /* margin-top: 200px;  */
+    /* margin-right: 120px;  */
+    /* margin-left: 600px; */
+    /* margin-bottom: 10px; */
+    padding: 15px;
+    border-style: none; 
+    /* position: absolute; */
+    top: 10px;
+    right: 10px; 
+    
+         
+}
+h3 {
+    font-size: 20;
+    color: chocolate;
+    
+}
+h4 { 
+    font-size: 28px; 
+    color: brown;
+}
+p {
+    font-size: 18px;
+    color: chocolate;
+}
+ button:hover {  
+    background-color: white; 
+    
+}
+button {
+    background-color: brown;
+} 
+
+
+ 
+
+

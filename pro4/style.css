@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box
+    ;
+}
+body {
+    position: relative; 
+    display: flex;
+    justify-content: center;  
+    /* align-items: center; */
+    height: 100vh;  
+
+}
+.conatiner { 
+    position: relative;
+    border-style: groove; 
+    align-items: center;
+text-align: center; 
+justify-content: center; 
+
+} 
+.content {  
+    
+    position: absolute;  
+    justify-content: center; 
+    text-align: center;    
+    align-items: center;  
+    border-style: dotted;
+    /* display: none;  */
+    
+} 
+.hidden {
+    display: none;
+} 
+.overlay {
+    top: 0%;
+    left: 0%;
+    
+}
